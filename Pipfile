@@ -7,7 +7,7 @@ name = "pypi"
 
 [packages]
 
-django = "==2.0"
+django = "==2.0.*"
 "argon2-cffi" = "*"
 django-compressor = "*"
 "psycopg2" = "*"
@@ -18,7 +18,7 @@ coverage = "*"
 "flake8" = "*"
 pytest = "*"
 tox = "*"
-
+gunicorn = "*"
 
 [dev-packages]
 
